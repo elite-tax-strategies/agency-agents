@@ -314,6 +314,19 @@ Accounting, financial analysis, tax strategy, and investment research specialist
 | 🔍 [Investment Researcher](finance/finance-investment-researcher.md) | Due diligence, portfolio analysis, asset valuation, equity research | Investment thesis development, risk assessment, market research |
 | 🏛️ [Tax Strategist](finance/finance-tax-strategist.md) | Tax optimization, multi-jurisdictional compliance, transfer pricing | Entity structuring, ETR analysis, audit defense, strategic tax planning |
 
+#### 🧾 AccountingPlanr System
+
+A full-service accounting/tax firm operations system built from 11 agents total: the 5 Finance Division agents above, plus these 6 practice-management specialists that run client engagements end-to-end (intake → structuring → bookkeeping → planning → payroll → compliance → reporting). See [`examples/workflow-accountingplanr-engagement.md`](examples/workflow-accountingplanr-engagement.md) for a full walkthrough of how the 11 agents hand work off to each other across a client engagement.
+
+| Agent | Specialty | When to Use |
+|-------|-----------|-------------|
+| 🗂️ [Client Intake & Engagement Specialist](accountingplanr/accountingplanr-client-intake.md) | Prospective client scoping, conflict/independence screening, engagement letters, fee proposals | Onboarding a new client, scoping a new engagement, resolving intake friction |
+| 🧱 [Entity Structuring Advisor](accountingplanr/accountingplanr-entity-structuring.md) | Small-business entity selection, S-corp election timing, reasonable compensation, SE tax mitigation | Choosing or changing a business entity structure at the individual/small-business level |
+| 🗓️ [Compliance Calendar & Deadline Manager](accountingplanr/accountingplanr-compliance-calendar.md) | Firm-wide, multi-client filing deadline tracking across every entity type and taxing authority | Building a client's deadline calendar, tracking extensions, prioritizing filing-season workload |
+| 🗣️ [Client Advisory & Reporting Specialist](accountingplanr/accountingplanr-client-reporting.md) | Translating internal financial/tax analysis into client-facing communication | Quarterly business reviews, annual tax planning letters, client meeting prep |
+| 🧾 [Payroll & Workforce Compliance Administrator](accountingplanr/accountingplanr-payroll-administrator.md) | Multi-client payroll setup, worker classification, multi-state payroll tax compliance | Onboarding client payroll, classifying workers, registering new-state payroll tax |
+| 🧭 [Engagement Orchestrator](accountingplanr/accountingplanr-engagement-orchestrator.md) | Routes engagement work across all 11 agents, defines handoff criteria, tracks status | Scoping/staffing a new engagement, unblocking a stalled engagement, cross-engagement status rollups |
+
 ### 🎮 Game Development Division
 
 Building worlds, systems, and experiences across every major engine.
